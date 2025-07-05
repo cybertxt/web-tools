@@ -1,0 +1,47 @@
+{
+  "name": "web-tools-platform",
+  "version": "1.0.0",
+  "description": "A modern, multilingual web platform providing various developer tools",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter frontend dev\" \"pnpm --filter backend dev\"",
+    "build": "pnpm --filter frontend build && pnpm --filter backend build",
+    "test": "pnpm --filter frontend test && pnpm --filter backend test",
+    "lint": "pnpm --filter frontend lint",
+    "format": "pnpm --filter frontend format",
+    "clean": "pnpm --filter frontend clean && pnpm --filter backend clean",
+    "install:all": "pnpm install && cd backend && go mod tidy",
+    "setup": "pnpm install:all && pnpm --filter frontend setup"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "keywords": [
+    "web-tools",
+    "developer-tools",
+    "base64",
+    "json",
+    "protobuf",
+    "unicode",
+    "react",
+    "go",
+    "typescript"
+  ],
+  "author": "Web Tools Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/web-tools-platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/web-tools-platform/issues"
+  },
+  "homepage": "https://github.com/your-org/web-tools-platform#readme"
+} 
