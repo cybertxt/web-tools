@@ -46,16 +46,16 @@ type ToolHistoryEntry struct {
 	CreatedAt time.Time              `json:"created_at" db:"created_at"`
 }
 
-// HealthResponse represents a health check response
-type HealthResponse struct {
-	Status    string `json:"status"`
-	Timestamp string `json:"timestamp"`
-	Version   string `json:"version"`
-}
-
 // ErrorResponse represents an error response
 type ErrorResponse struct {
 	Error   string `json:"error"`
 	Code    string `json:"code,omitempty"`
 	Details string `json:"details,omitempty"`
+}
+
+// HealthResponse represents a health check response
+type HealthResponse struct {
+	Status    string `json:"status"`
+	Timestamp string `json:"timestamp"`
+	Version   string `json:"version"`
 }

@@ -1,0 +1,87 @@
+{
+  "categories": {
+    "encoding": "Encoding/Decoding",
+    "formatting": "Data Formatting",
+    "cryptography": "Cryptography",
+    "text": "Text Processing"
+  },
+  "base64": {
+    "name": "Base64 Encoder/Decoder",
+    "description": "Encode and decode Base64 strings",
+    "modes": {
+      "encode": "Encode",
+      "decode": "Decode",
+      "url-encode": "URL-Safe Encode",
+      "url-decode": "URL-Safe Decode"
+    },
+    "placeholders": {
+      "input": "Enter text to encode or Base64 string to decode",
+      "output": "Encoded/decoded result will appear here"
+    }
+  },
+  "json": {
+    "name": "JSON Formatter/Validator",
+    "description": "Format and validate JSON data",
+    "modes": {
+      "format": "Format",
+      "prettify": "Prettify",
+      "minify": "Minify",
+      "validate": "Validate"
+    },
+    "placeholders": {
+      "input": "Enter JSON string to format or validate",
+      "output": "Formatted JSON will appear here"
+    }
+  },
+  "url": {
+    "name": "URL Encoder/Decoder",
+    "description": "Encode and decode URL parameters",
+    "modes": {
+      "encode": "Encode",
+      "decode": "Decode",
+      "encode-component": "Encode Component",
+      "decode-component": "Decode Component"
+    },
+    "placeholders": {
+      "input": "Enter URL or text to encode/decode",
+      "output": "Encoded/decoded URL will appear here"
+    }
+  },
+  "html": {
+    "name": "HTML Encoder/Decoder",
+    "description": "Encode and decode HTML entities",
+    "modes": {
+      "encode": "Encode",
+      "decode": "Decode"
+    },
+    "placeholders": {
+      "input": "Enter HTML text to encode or decode",
+      "output": "Encoded/decoded HTML will appear here"
+    }
+  },
+  "unicode": {
+    "name": "Unicode Encoder/Decoder",
+    "description": "Encode and decode Unicode characters",
+    "modes": {
+      "encode": "Encode",
+      "decode": "Decode",
+      "info": "Character Info"
+    },
+    "placeholders": {
+      "input": "Enter text to encode or Unicode sequences to decode",
+      "output": "Encoded/decoded Unicode will appear here"
+    }
+  },
+  "common": {
+    "input": "Input",
+    "output": "Output",
+    "mode": "Mode",
+    "settings": "Settings",
+    "copy": "Copy",
+    "clear": "Clear",
+    "process": "Process",
+    "example": "Example",
+    "history": "History",
+    "favorites": "Favorites"
+  }
+} 

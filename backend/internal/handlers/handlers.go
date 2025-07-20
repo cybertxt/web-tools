@@ -38,7 +38,7 @@ func (h *Handler) HealthCheck(c *gin.Context) {
 
 // GetTools handles GET /api/tools requests
 func (h *Handler) GetTools(c *gin.Context) {
-	tools, err := h.service.GetAllTools()
+	tools, err := h.service.GetTools()
 	if err != nil {
 		logrus.WithError(err).Error("Failed to get tools")
 		c.JSON(http.StatusInternalServerError, models.ErrorResponse{
@@ -62,7 +62,7 @@ func (h *Handler) GetTool(c *gin.Context) {
 		return
 	}
 
-	tool, err := h.service.GetToolByID(toolID)
+	tool, err := h.service.GetTool(toolID)
 	if err != nil {
 		logrus.WithError(err).WithField("tool_id", toolID).Error("Failed to get tool")
 		c.JSON(http.StatusNotFound, models.ErrorResponse{

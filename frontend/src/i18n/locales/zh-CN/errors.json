@@ -1,0 +1,34 @@
+{
+  "validation": {
+    "required": "此字段为必填项",
+    "invalid": "输入无效",
+    "tooLong": "输入过长",
+    "tooShort": "输入过短",
+    "invalidFormat": "格式无效",
+    "invalidJson": "JSON格式无效",
+    "invalidUrl": "URL格式无效",
+    "invalidBase64": "Base64字符串无效",
+    "invalidUnicode": "Unicode序列无效",
+    "invalidHtml": "HTML格式无效"
+  },
+  "api": {
+    "networkError": "网络错误",
+    "serverError": "服务器错误",
+    "notFound": "资源未找到",
+    "unauthorized": "未授权访问",
+    "forbidden": "访问被禁止",
+    "timeout": "请求超时",
+    "unknown": "未知错误"
+  },
+  "tool": {
+    "processingError": "工具处理错误",
+    "unsupportedMode": "不支持的模式",
+    "toolNotFound": "工具未找到",
+    "invalidSettings": "设置无效"
+  },
+  "general": {
+    "somethingWentWrong": "出现了问题",
+    "tryAgain": "请重试",
+    "contactSupport": "如果问题持续存在，请联系支持"
+  }
+} 

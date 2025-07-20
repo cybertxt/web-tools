@@ -73,6 +73,28 @@ export default {
           900: '#7f1d1d',
           950: '#450a0a',
         },
+        // Semantic colors for design system
+        destructive: {
+          DEFAULT: '#ef4444',
+          foreground: '#ffffff',
+        },
+        muted: {
+          DEFAULT: '#f1f5f9',
+          foreground: '#64748b',
+        },
+        accent: {
+          DEFAULT: '#f1f5f9',
+          foreground: '#0f172a',
+        },
+        border: '#e2e8f0',
+        input: '#e2e8f0',
+        ring: '#3b82f6',
+        background: '#ffffff',
+        foreground: '#0f172a',
+        card: {
+          DEFAULT: '#ffffff',
+          foreground: '#0f172a',
+        },
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

@@ -1,0 +1,87 @@
+{
+  "categories": {
+    "encoding": "编码/解码",
+    "formatting": "数据格式化",
+    "cryptography": "加密解密",
+    "text": "文本处理"
+  },
+  "base64": {
+    "name": "Base64 编码/解码",
+    "description": "对Base64字符串进行编码和解码",
+    "modes": {
+      "encode": "编码",
+      "decode": "解码",
+      "url-encode": "URL安全编码",
+      "url-decode": "URL安全解码"
+    },
+    "placeholders": {
+      "input": "请输入要编码的文本或要解码的Base64字符串",
+      "output": "编码/解码结果将显示在这里"
+    }
+  },
+  "json": {
+    "name": "JSON 格式化/验证",
+    "description": "格式化和验证JSON数据",
+    "modes": {
+      "format": "格式化",
+      "prettify": "美化",
+      "minify": "压缩",
+      "validate": "验证"
+    },
+    "placeholders": {
+      "input": "请输入要格式化或验证的JSON字符串",
+      "output": "格式化后的JSON将显示在这里"
+    }
+  },
+  "url": {
+    "name": "URL 编码/解码",
+    "description": "对URL参数进行编码和解码",
+    "modes": {
+      "encode": "编码",
+      "decode": "解码",
+      "encode-component": "组件编码",
+      "decode-component": "组件解码"
+    },
+    "placeholders": {
+      "input": "请输入要编码/解码的URL或文本",
+      "output": "编码/解码后的URL将显示在这里"
+    }
+  },
+  "html": {
+    "name": "HTML 编码/解码",
+    "description": "对HTML实体进行编码和解码",
+    "modes": {
+      "encode": "编码",
+      "decode": "解码"
+    },
+    "placeholders": {
+      "input": "请输入要编码或解码的HTML文本",
+      "output": "编码/解码后的HTML将显示在这里"
+    }
+  },
+  "unicode": {
+    "name": "Unicode 编码/解码",
+    "description": "对Unicode字符进行编码和解码",
+    "modes": {
+      "encode": "编码",
+      "decode": "解码",
+      "info": "字符信息"
+    },
+    "placeholders": {
+      "input": "请输入要编码的文本或要解码的Unicode序列",
+      "output": "编码/解码后的Unicode将显示在这里"
+    }
+  },
+  "common": {
+    "input": "输入",
+    "output": "输出",
+    "mode": "模式",
+    "settings": "设置",
+    "copy": "复制",
+    "clear": "清空",
+    "process": "处理",
+    "example": "示例",
+    "history": "历史记录",
+    "favorites": "收藏"
+  }
+} 

@@ -1,0 +1,53 @@
+{
+  "appName": "Web Tools Platform",
+  "appDescription": "A modern, multilingual web platform for developer tools",
+  "navigation": {
+    "home": "Home",
+    "tools": "Tools",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "clear": "Clear",
+    "copy": "Copy",
+    "paste": "Paste",
+    "download": "Download",
+    "upload": "Upload",
+    "reset": "Reset",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "footer": {
+    "copyright": "© 2024 Web Tools Platform. All rights reserved.",
+    "builtWith": "Built with ❤️ using modern web technologies"
+  }
+} 

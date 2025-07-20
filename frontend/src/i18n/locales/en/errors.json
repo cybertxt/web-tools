@@ -1,0 +1,34 @@
+{
+  "validation": {
+    "required": "This field is required",
+    "invalid": "Invalid input",
+    "tooLong": "Input is too long",
+    "tooShort": "Input is too short",
+    "invalidFormat": "Invalid format",
+    "invalidJson": "Invalid JSON format",
+    "invalidUrl": "Invalid URL format",
+    "invalidBase64": "Invalid Base64 string",
+    "invalidUnicode": "Invalid Unicode sequence",
+    "invalidHtml": "Invalid HTML format"
+  },
+  "api": {
+    "networkError": "Network error occurred",
+    "serverError": "Server error occurred",
+    "notFound": "Resource not found",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden",
+    "timeout": "Request timeout",
+    "unknown": "Unknown error occurred"
+  },
+  "tool": {
+    "processingError": "Error processing tool",
+    "unsupportedMode": "Unsupported mode",
+    "toolNotFound": "Tool not found",
+    "invalidSettings": "Invalid settings"
+  },
+  "general": {
+    "somethingWentWrong": "Something went wrong",
+    "tryAgain": "Please try again",
+    "contactSupport": "Please contact support if the problem persists"
+  }
+} 
